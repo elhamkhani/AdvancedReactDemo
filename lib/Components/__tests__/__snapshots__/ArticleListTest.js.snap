@@ -1,78 +1,147 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ArticleList renders correctly 1`] = `
-<div>
-  <div
-    style={Object {}}
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
-        }
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ArticleList
+    articles={
+      Object {
+        "a": Object {
+          "authorId": "",
+          "id": "a",
+        },
+        "b": Object {
+          "id": "b",
+        },
       }
-    />
-    <div
-      style={
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ArticleContainer
+          article={
+            Object {
+              "authorId": "",
+              "id": "a",
+            }
+          }
+        />,
+        <ArticleContainer
+          article={
+            Object {
+              "id": "b",
+            }
+          }
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "a",
+        "nodeType": "class",
+        "props": Object {
+          "article": Object {
+            "authorId": "",
+            "id": "a",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "b",
+        "nodeType": "class",
+        "props": Object {
+          "article": Object {
+            "id": "b",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ArticleContainer
+            article={
+              Object {
+                "authorId": "",
+                "id": "a",
+              }
+            }
+          />,
+          <ArticleContainer
+            article={
+              Object {
+                "id": "b",
+              }
+            }
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
         Object {
-          "color": "#888",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={Object {}}
-    >
-      <a
-        href={undefined}
-      >
-         
-      </a>
-    </div>
-    <div
-      style={
+          "instance": null,
+          "key": "a",
+          "nodeType": "class",
+          "props": Object {
+            "article": Object {
+              "authorId": "",
+              "id": "a",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         Object {
-          "paddingLeft": 20,
-        }
-      }
-    />
-  </div>
-  <div
-    style={Object {}}
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
-        }
-      }
-    />
-    <div
-      style={
-        Object {
-          "color": "#888",
-        }
-      }
-    >
-      Invalid Date
-    </div>
-    <div
-      style={Object {}}
-    >
-      <a
-        href={undefined}
-      >
-         
-      </a>
-    </div>
-    <div
-      style={
-        Object {
-          "paddingLeft": 20,
-        }
-      }
-    />
-  </div>
-</div>
+          "instance": null,
+          "key": "b",
+          "nodeType": "class",
+          "props": Object {
+            "article": Object {
+              "id": "b",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;
