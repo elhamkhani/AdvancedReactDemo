@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList renders correctly 1`] = `
+<div>
+  <div
+    style={Object {}}
+  >
+    <div
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    />
+    <div
+      style={
+        Object {
+          "color": "#888",
+        }
+      }
+    >
+      Invalid Date
+    </div>
+    <div
+      style={Object {}}
+    >
+      <a
+        href={undefined}
+      >
+         
+      </a>
+    </div>
+    <div
+      style={
+        Object {
+          "paddingLeft": 20,
+        }
+      }
+    />
+  </div>
+  <div
+    style={Object {}}
+  >
+    <div
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    />
+    <div
+      style={
+        Object {
+          "color": "#888",
+        }
+      }
+    >
+      Invalid Date
+    </div>
+    <div
+      style={Object {}}
+    >
+      <a
+        href={undefined}
+      >
+         
+      </a>
+    </div>
+    <div
+      style={
+        Object {
+          "paddingLeft": 20,
+        }
+      }
+    />
+  </div>
+</div>
+`;
